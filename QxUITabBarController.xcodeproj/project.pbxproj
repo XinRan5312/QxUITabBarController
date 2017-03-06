@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B096E1351E67B70700F1DD28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096E1341E67B70700F1DD28 /* AppDelegate.swift */; };
+		B096E1371E67B70700F1DD28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096E1361E67B70700F1DD28 /* ViewController.swift */; };
+		B096E13A1E67B70700F1DD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B096E1381E67B70700F1DD28 /* Main.storyboard */; };
+		B096E13D1E67B70700F1DD28 /* QxUITabBarController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B096E13B1E67B70700F1DD28 /* QxUITabBarController.xcdatamodeld */; };
+		B096E13F1E67B70700F1DD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B096E13E1E67B70700F1DD28 /* Assets.xcassets */; };
+		B096E1421E67B70700F1DD28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B096E1401E67B70700F1DD28 /* LaunchScreen.storyboard */; };
+		B096E14A1E67B96900F1DD28 /* QTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096E1491E67B96900F1DD28 /* QTabBarViewController.swift */; };
+		B096E1651E67BAD700F1DD28 /* 3d_scanner.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E14C1E67BAD700F1DD28 /* 3d_scanner.png */; };
+		B096E1661E67BAD700F1DD28 /* artist_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E14D1E67BAD700F1DD28 /* artist_48px.png */; };
+		B096E1671E67BAD700F1DD28 /* baby_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E14E1E67BAD700F1DD28 /* baby_48px.png */; };
+		B096E1681E67BAD700F1DD28 /* boy_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E14F1E67BAD700F1DD28 /* boy_48px.png */; };
+		B096E1691E67BAD700F1DD28 /* compass_32px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1501E67BAD700F1DD28 /* compass_32px.png */; };
+		B096E16A1E67BAD700F1DD28 /* compass_select.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1511E67BAD700F1DD28 /* compass_select.png */; };
+		B096E16B1E67BAD700F1DD28 /* firefighter_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1521E67BAD700F1DD28 /* firefighter_48px.png */; };
+		B096E16C1E67BAD700F1DD28 /* friends_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1531E67BAD700F1DD28 /* friends_48px.png */; };
+		B096E16D1E67BAD700F1DD28 /* Game_Controller.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1541E67BAD700F1DD28 /* Game_Controller.png */; };
+		B096E16E1E67BAD700F1DD28 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1551E67BAD700F1DD28 /* line.png */; };
+		B096E16F1E67BAD700F1DD28 /* Message_Select.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1561E67BAD700F1DD28 /* Message_Select.png */; };
+		B096E1701E67BAD700F1DD28 /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1571E67BAD700F1DD28 /* Message.png */; };
+		B096E1711E67BAD700F1DD28 /* People_Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1581E67BAD700F1DD28 /* People_Ground.png */; };
+		B096E1721E67BAD700F1DD28 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1591E67BAD700F1DD28 /* qq.png */; };
+		B096E1731E67BAD700F1DD28 /* Shake.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E15A1E67BAD700F1DD28 /* Shake.png */; };
+		B096E1741E67BAD700F1DD28 /* Shopping_bag.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E15B1E67BAD700F1DD28 /* Shopping_bag.png */; };
+		B096E1751E67BAD700F1DD28 /* Subscription.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E15C1E67BAD700F1DD28 /* Subscription.png */; };
+		B096E1761E67BAD700F1DD28 /* tencent_weixin_128px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E15D1E67BAD700F1DD28 /* tencent_weixin_128px.png */; };
+		B096E1771E67BAD700F1DD28 /* text_message_32px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E15E1E67BAD700F1DD28 /* text_message_32px.png */; };
+		B096E1781E67BAD700F1DD28 /* Twitter_Bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E15F1E67BAD700F1DD28 /* Twitter_Bottle.png */; };
+		B096E1791E67BAD700F1DD28 /* Twitter_flat.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1601E67BAD700F1DD28 /* Twitter_flat.png */; };
+		B096E17A1E67BAD700F1DD28 /* user_list_32px.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1611E67BAD700F1DD28 /* user_list_32px.png */; };
+		B096E17B1E67BAD700F1DD28 /* user_list_select.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1621E67BAD700F1DD28 /* user_list_select.png */; };
+		B096E17C1E67BAD700F1DD28 /* user_select.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1631E67BAD700F1DD28 /* user_select.png */; };
+		B096E17D1E67BAD700F1DD28 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = B096E1641E67BAD700F1DD28 /* user.png */; };
+		B096E17F1E67C3A200F1DD28 /* FreindsTabTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096E17E1E67C3A200F1DD28 /* FreindsTabTableViewController.swift */; };
+		B096E1821E67C6E000F1DD28 /* FriendModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096E1811E67C6E000F1DD28 /* FriendModle.swift */; };
+		B096E1851E67C7B700F1DD28 /* CreatDataUitls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096E1841E67C7B700F1DD28 /* CreatDataUitls.swift */; };
+		B096E1871E69078800F1DD28 /* MsgTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096E1861E69078800F1DD28 /* MsgTableViewController.swift */; };
+		B096E1891E6908B400F1DD28 /* MsgModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B096E1881E6908B400F1DD28 /* MsgModle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B096E1311E67B70700F1DD28 /* QxUITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QxUITabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B096E1341E67B70700F1DD28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B096E1361E67B70700F1DD28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B096E1391E67B70700F1DD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B096E13C1E67B70700F1DD28 /* QxUITabBarController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QxUITabBarController.xcdatamodel; sourceTree = "<group>"; };
+		B096E13E1E67B70700F1DD28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B096E1411E67B70700F1DD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B096E1431E67B70700F1DD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B096E1491E67B96900F1DD28 /* QTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QTabBarViewController.swift; sourceTree = "<group>"; };
+		B096E14C1E67BAD700F1DD28 /* 3d_scanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3d_scanner.png; path = ../../3d_scanner.png; sourceTree = "<group>"; };
+		B096E14D1E67BAD700F1DD28 /* artist_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artist_48px.png; path = ../../artist_48px.png; sourceTree = "<group>"; };
+		B096E14E1E67BAD700F1DD28 /* baby_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baby_48px.png; path = ../../baby_48px.png; sourceTree = "<group>"; };
+		B096E14F1E67BAD700F1DD28 /* boy_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boy_48px.png; path = ../../boy_48px.png; sourceTree = "<group>"; };
+		B096E1501E67BAD700F1DD28 /* compass_32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass_32px.png; path = ../../compass_32px.png; sourceTree = "<group>"; };
+		B096E1511E67BAD700F1DD28 /* compass_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass_select.png; path = ../../compass_select.png; sourceTree = "<group>"; };
+		B096E1521E67BAD700F1DD28 /* firefighter_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = firefighter_48px.png; path = ../../firefighter_48px.png; sourceTree = "<group>"; };
+		B096E1531E67BAD700F1DD28 /* friends_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = friends_48px.png; path = ../../friends_48px.png; sourceTree = "<group>"; };
+		B096E1541E67BAD700F1DD28 /* Game_Controller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Game_Controller.png; path = ../../Game_Controller.png; sourceTree = "<group>"; };
+		B096E1551E67BAD700F1DD28 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line.png; path = ../../line.png; sourceTree = "<group>"; };
+		B096E1561E67BAD700F1DD28 /* Message_Select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Message_Select.png; path = ../../Message_Select.png; sourceTree = "<group>"; };
+		B096E1571E67BAD700F1DD28 /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Message.png; path = ../../Message.png; sourceTree = "<group>"; };
+		B096E1581E67BAD700F1DD28 /* People_Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = People_Ground.png; path = ../../People_Ground.png; sourceTree = "<group>"; };
+		B096E1591E67BAD700F1DD28 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = qq.png; path = ../../qq.png; sourceTree = "<group>"; };
+		B096E15A1E67BAD700F1DD28 /* Shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shake.png; path = ../../Shake.png; sourceTree = "<group>"; };
+		B096E15B1E67BAD700F1DD28 /* Shopping_bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shopping_bag.png; path = ../../Shopping_bag.png; sourceTree = "<group>"; };
+		B096E15C1E67BAD700F1DD28 /* Subscription.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Subscription.png; path = ../../Subscription.png; sourceTree = "<group>"; };
+		B096E15D1E67BAD700F1DD28 /* tencent_weixin_128px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tencent_weixin_128px.png; path = ../../tencent_weixin_128px.png; sourceTree = "<group>"; };
+		B096E15E1E67BAD700F1DD28 /* text_message_32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text_message_32px.png; path = ../../text_message_32px.png; sourceTree = "<group>"; };
+		B096E15F1E67BAD700F1DD28 /* Twitter_Bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter_Bottle.png; path = ../../Twitter_Bottle.png; sourceTree = "<group>"; };
+		B096E1601E67BAD700F1DD28 /* Twitter_flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter_flat.png; path = ../../Twitter_flat.png; sourceTree = "<group>"; };
+		B096E1611E67BAD700F1DD28 /* user_list_32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_list_32px.png; path = ../../user_list_32px.png; sourceTree = "<group>"; };
+		B096E1621E67BAD700F1DD28 /* user_list_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_list_select.png; path = ../../user_list_select.png; sourceTree = "<group>"; };
+		B096E1631E67BAD700F1DD28 /* user_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_select.png; path = ../../user_select.png; sourceTree = "<group>"; };
+		B096E1641E67BAD700F1DD28 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = ../../user.png; sourceTree = "<group>"; };
+		B096E17E1E67C3A200F1DD28 /* FreindsTabTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreindsTabTableViewController.swift; sourceTree = "<group>"; };
+		B096E1811E67C6E000F1DD28 /* FriendModle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModle.swift; sourceTree = "<group>"; };
+		B096E1841E67C7B700F1DD28 /* CreatDataUitls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatDataUitls.swift; sourceTree = "<group>"; };
+		B096E1861E69078800F1DD28 /* MsgTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgTableViewController.swift; sourceTree = "<group>"; };
+		B096E1881E6908B400F1DD28 /* MsgModle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgModle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B096E12E1E67B70700F1DD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B096E1281E67B70700F1DD28 = {
+			isa = PBXGroup;
+			children = (
+				B096E1831E67C79400F1DD28 /* utils */,
+				B096E1801E67C6B400F1DD28 /* modles */,
+				B096E14B1E67B9C200F1DD28 /* images */,
+				B096E1331E67B70700F1DD28 /* QxUITabBarController */,
+				B096E1321E67B70700F1DD28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B096E1321E67B70700F1DD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B096E1311E67B70700F1DD28 /* QxUITabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B096E1331E67B70700F1DD28 /* QxUITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				B096E1341E67B70700F1DD28 /* AppDelegate.swift */,
+				B096E1361E67B70700F1DD28 /* ViewController.swift */,
+				B096E1381E67B70700F1DD28 /* Main.storyboard */,
+				B096E13E1E67B70700F1DD28 /* Assets.xcassets */,
+				B096E1401E67B70700F1DD28 /* LaunchScreen.storyboard */,
+				B096E1431E67B70700F1DD28 /* Info.plist */,
+				B096E13B1E67B70700F1DD28 /* QxUITabBarController.xcdatamodeld */,
+				B096E1491E67B96900F1DD28 /* QTabBarViewController.swift */,
+				B096E17E1E67C3A200F1DD28 /* FreindsTabTableViewController.swift */,
+				B096E1861E69078800F1DD28 /* MsgTableViewController.swift */,
+			);
+			path = QxUITabBarController;
+			sourceTree = "<group>";
+		};
+		B096E14B1E67B9C200F1DD28 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B096E14D1E67BAD700F1DD28 /* artist_48px.png */,
+				B096E14E1E67BAD700F1DD28 /* baby_48px.png */,
+				B096E14F1E67BAD700F1DD28 /* boy_48px.png */,
+				B096E1501E67BAD700F1DD28 /* compass_32px.png */,
+				B096E1511E67BAD700F1DD28 /* compass_select.png */,
+				B096E1521E67BAD700F1DD28 /* firefighter_48px.png */,
+				B096E1531E67BAD700F1DD28 /* friends_48px.png */,
+				B096E1541E67BAD700F1DD28 /* Game_Controller.png */,
+				B096E1551E67BAD700F1DD28 /* line.png */,
+				B096E1561E67BAD700F1DD28 /* Message_Select.png */,
+				B096E1571E67BAD700F1DD28 /* Message.png */,
+				B096E1581E67BAD700F1DD28 /* People_Ground.png */,
+				B096E1591E67BAD700F1DD28 /* qq.png */,
+				B096E15A1E67BAD700F1DD28 /* Shake.png */,
+				B096E15B1E67BAD700F1DD28 /* Shopping_bag.png */,
+				B096E15C1E67BAD700F1DD28 /* Subscription.png */,
+				B096E15D1E67BAD700F1DD28 /* tencent_weixin_128px.png */,
+				B096E15E1E67BAD700F1DD28 /* text_message_32px.png */,
+				B096E15F1E67BAD700F1DD28 /* Twitter_Bottle.png */,
+				B096E1601E67BAD700F1DD28 /* Twitter_flat.png */,
+				B096E1611E67BAD700F1DD28 /* user_list_32px.png */,
+				B096E1621E67BAD700F1DD28 /* user_list_select.png */,
+				B096E1631E67BAD700F1DD28 /* user_select.png */,
+				B096E1641E67BAD700F1DD28 /* user.png */,
+				B096E14C1E67BAD700F1DD28 /* 3d_scanner.png */,
+			);
+			name = images;
+			path = QxUITabBarController/images;
+			sourceTree = "<group>";
+		};
+		B096E1801E67C6B400F1DD28 /* modles */ = {
+			isa = PBXGroup;
+			children = (
+				B096E1811E67C6E000F1DD28 /* FriendModle.swift */,
+				B096E1881E6908B400F1DD28 /* MsgModle.swift */,
+			);
+			path = modles;
+			sourceTree = "<group>";
+		};
+		B096E1831E67C79400F1DD28 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B096E1841E67C7B700F1DD28 /* CreatDataUitls.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B096E1301E67B70700F1DD28 /* QxUITabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B096E1461E67B70700F1DD28 /* Build configuration list for PBXNativeTarget "QxUITabBarController" */;
+			buildPhases = (
+				B096E12D1E67B70700F1DD28 /* Sources */,
+				B096E12E1E67B70700F1DD28 /* Frameworks */,
+				B096E12F1E67B70700F1DD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QxUITabBarController;
+			productName = QxUITabBarController;
+			productReference = B096E1311E67B70700F1DD28 /* QxUITabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B096E1291E67B70700F1DD28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.wrqx;
+				TargetAttributes = {
+					B096E1301E67B70700F1DD28 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B096E12C1E67B70700F1DD28 /* Build configuration list for PBXProject "QxUITabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B096E1281E67B70700F1DD28;
+			productRefGroup = B096E1321E67B70700F1DD28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B096E1301E67B70700F1DD28 /* QxUITabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B096E12F1E67B70700F1DD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B096E1661E67BAD700F1DD28 /* artist_48px.png in Resources */,
+				B096E1741E67BAD700F1DD28 /* Shopping_bag.png in Resources */,
+				B096E1681E67BAD700F1DD28 /* boy_48px.png in Resources */,
+				B096E1671E67BAD700F1DD28 /* baby_48px.png in Resources */,
+				B096E1751E67BAD700F1DD28 /* Subscription.png in Resources */,
+				B096E1761E67BAD700F1DD28 /* tencent_weixin_128px.png in Resources */,
+				B096E17B1E67BAD700F1DD28 /* user_list_select.png in Resources */,
+				B096E1421E67B70700F1DD28 /* LaunchScreen.storyboard in Resources */,
+				B096E16E1E67BAD700F1DD28 /* line.png in Resources */,
+				B096E1721E67BAD700F1DD28 /* qq.png in Resources */,
+				B096E1701E67BAD700F1DD28 /* Message.png in Resources */,
+				B096E1651E67BAD700F1DD28 /* 3d_scanner.png in Resources */,
+				B096E17A1E67BAD700F1DD28 /* user_list_32px.png in Resources */,
+				B096E17C1E67BAD700F1DD28 /* user_select.png in Resources */,
+				B096E1731E67BAD700F1DD28 /* Shake.png in Resources */,
+				B096E1711E67BAD700F1DD28 /* People_Ground.png in Resources */,
+				B096E16B1E67BAD700F1DD28 /* firefighter_48px.png in Resources */,
+				B096E16C1E67BAD700F1DD28 /* friends_48px.png in Resources */,
+				B096E17D1E67BAD700F1DD28 /* user.png in Resources */,
+				B096E16D1E67BAD700F1DD28 /* Game_Controller.png in Resources */,
+				B096E1691E67BAD700F1DD28 /* compass_32px.png in Resources */,
+				B096E13F1E67B70700F1DD28 /* Assets.xcassets in Resources */,
+				B096E16F1E67BAD700F1DD28 /* Message_Select.png in Resources */,
+				B096E16A1E67BAD700F1DD28 /* compass_select.png in Resources */,
+				B096E1791E67BAD700F1DD28 /* Twitter_flat.png in Resources */,
+				B096E13A1E67B70700F1DD28 /* Main.storyboard in Resources */,
+				B096E1781E67BAD700F1DD28 /* Twitter_Bottle.png in Resources */,
+				B096E1771E67BAD700F1DD28 /* text_message_32px.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B096E12D1E67B70700F1DD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B096E17F1E67C3A200F1DD28 /* FreindsTabTableViewController.swift in Sources */,
+				B096E1371E67B70700F1DD28 /* ViewController.swift in Sources */,
+				B096E1851E67C7B700F1DD28 /* CreatDataUitls.swift in Sources */,
+				B096E13D1E67B70700F1DD28 /* QxUITabBarController.xcdatamodeld in Sources */,
+				B096E14A1E67B96900F1DD28 /* QTabBarViewController.swift in Sources */,
+				B096E1891E6908B400F1DD28 /* MsgModle.swift in Sources */,
+				B096E1871E69078800F1DD28 /* MsgTableViewController.swift in Sources */,
+				B096E1351E67B70700F1DD28 /* AppDelegate.swift in Sources */,
+				B096E1821E67C6E000F1DD28 /* FriendModle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B096E1381E67B70700F1DD28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B096E1391E67B70700F1DD28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B096E1401E67B70700F1DD28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B096E1411E67B70700F1DD28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B096E1441E67B70700F1DD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B096E1451E67B70700F1DD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B096E1471E67B70700F1DD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QxUITabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ran.QxUITabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B096E1481E67B70700F1DD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QxUITabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ran.QxUITabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B096E12C1E67B70700F1DD28 /* Build configuration list for PBXProject "QxUITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B096E1441E67B70700F1DD28 /* Debug */,
+				B096E1451E67B70700F1DD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B096E1461E67B70700F1DD28 /* Build configuration list for PBXNativeTarget "QxUITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B096E1471E67B70700F1DD28 /* Debug */,
+				B096E1481E67B70700F1DD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B096E13B1E67B70700F1DD28 /* QxUITabBarController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B096E13C1E67B70700F1DD28 /* QxUITabBarController.xcdatamodel */,
+			);
+			currentVersion = B096E13C1E67B70700F1DD28 /* QxUITabBarController.xcdatamodel */;
+			path = QxUITabBarController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B096E1291E67B70700F1DD28 /* Project object */;
+}

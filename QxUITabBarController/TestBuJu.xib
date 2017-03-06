@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="14F2109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="TestBuJu" customModule="QxUITabBarController" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="443"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="2Oq-HY-X9X">
+                    <rect key="frame" x="20" y="363" width="100" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Alh-VD-Xix"/>
+                        <constraint firstAttribute="width" constant="100" id="BWG-lD-hQn"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="w2a-IM-7HI">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWe-wA-sSk">
+                    <rect key="frame" x="228" y="190" width="48" height="48"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Naq-Rn-qur"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="2Oq-HY-X9X" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" id="MNE-s5-nmM"/>
+                <constraint firstItem="2Oq-HY-X9X" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" id="arR-Fe-Buy"/>
+            </constraints>
+            <point key="canvasLocation" x="280" y="404.5"/>
+        </customView>
+        <button id="04X-fs-xUE">
+            <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Jsb-eA-XPG">
+                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                <font key="font" metaFont="system"/>
+            </buttonCell>
+            <point key="canvasLocation" x="372" y="354"/>
+        </button>
+    </objects>
+</document>
